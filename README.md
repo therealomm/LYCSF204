@@ -35,7 +35,10 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
+******************************************************************************************************************
 
+The proposed system, PhishGuard, is designed to help users identify whether an email or SMS message is Phishing, Spam, or Safe. The system takes the message text as input and analyzes its words, structure, and any links included in it. Instead of relying on fixed keyword lists or manual checking, the system uses Machine Learning so that it can learn the patterns commonly found in phishing messages and detect new ones that may not match old keywords.
+The text is detected by passing to an SVM (Support Vector Machine) classifier, which has been trained on real examples of phishing and safe messages. The SVM predicts the class of the message and also generates a confidence score showing how certain the system is about the prediction.
 ***********************************************************************************************************************************************************************************************
 OUTPUT SCREENSHOTS
 
